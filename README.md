@@ -34,3 +34,7 @@ Responsive-landing-page/
 ├── style.css
 ├── script.js
 └── README.md
+
+##GitHub Repository
+
+https://github.com/parulyadav0018-png/Responsive-landing-page.git
