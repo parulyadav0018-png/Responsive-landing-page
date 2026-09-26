@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CodeOrbit - Learn & Build</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="header">
+        <nav class="navbar">
+
+            <div class="logo">
+                Code<span>Orbit</span>
+            </div>
+
+           <button class="menu-btn" id="menuBtn"
+            aria-label="Open navigation menu" 
+            aria-expanded="false" 
+            aria-controls="navLinks">☰</button>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- ================= HERO SECTION ================= -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="small-title">
+                LEARN • BUILD • GROW
+            </p>
+
+            <h1>
+                Build Your Future With
+                <span>Technology</span>
+            </h1>
+
+            <p class="hero-text">
+                Learn modern web development skills and build real-world
+                projects that help you grow your career.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#features" class="btn primary-btn">
+                    Get Started
+                </a>
+
+                <a href="#about" class="btn secondary-btn">
+                    Learn More
+                </a>
+            </div>
+
+        </div>
+
+
+        <div class="hero-image">
+
+            <div class="code-card">
+                <div class="dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <p>&lt;developer&gt;</p>
+                <h3>Build. Learn. Create.</h3>
+                <p>const future = "bright";</p>
+                <p>Start your journey today!</p>
+                <p>&lt;/developer&gt;</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FEATURES ================= -->
+    <section class="features" id="features">
+
+        <div class="section-heading">
+
+            <p>WHAT WE OFFER</p>
+
+            <h2>
+                Learn. Practice. <span>Grow.</span>
+            </h2>
+
+            <p>
+                Everything you need to start your development journey.
+            </p>
+
+        </div>
+
+
+        <div class="feature-container">
+
+            <!-- Card 1 -->
+            <div class="feature-card">
+
+                <div class="icon">
+                    💻
+                </div>
+
+                <h3>Web Development</h3>
+
+                <p>
+                    Learn HTML, CSS and JavaScript and create responsive
+                    websites from scratch.
+                </p>
+
+                <a href="#">Explore →</a>
+
+            </div>
+
+
+            <!-- Card 2 -->
+            <div class="feature-card">
+
+                <div class="icon">
+                    🚀
+                </div>
+
+                <h3>Real Projects</h3>
+
+                <p>
+                    Work on practical projects and improve your
+                    development skills through hands-on experience.
+                </p>
+
+                <a href="#about">Explore →</a>
+
+            </div>
+
+
+            <!-- Card 3 -->
+            <div class="feature-card">
+
+                <div class="icon">
+                    🎯
+                </div>
+
+                <h3>Career Growth</h3>
+
+                <p>
+                    Build your portfolio, improve your skills and
+                    prepare yourself for exciting opportunities.
+                </p>
+
+                <a href="#contact">Explore →</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+    <section class="about" id="about">
+
+        <div class="about-image">
+            <div class="about-box">
+                <span>100%</span>
+                <p>Learning Through Practice</p>
+            </div>
+        </div>
+
+
+        <div class="about-content">
+
+            <p class="section-label">
+                ABOUT US
+            </p>
+
+            <h2>
+                Turn Your Ideas Into
+                <span>Reality</span>
+            </h2>
+
+            <p>
+                We believe that the best way to learn technology is by
+                building real projects. Our learning approach focuses on
+                practical skills, creativity and continuous improvement.
+            </p>
+
+            <div class="about-points">
+
+                <p>✓ Beginner friendly learning</p>
+                <p>✓ Practical project experience</p>
+                <p>✓ Responsive web development</p>
+                <p>✓ Career focused skills</p>
+
+            </div>
+
+            <a href="#contact" class="btn primary-btn">
+                Start Learning
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CTA ================= -->
+    <section class="cta">
+
+        <div>
+
+            <p class="cta-small">
+                READY TO START?
+            </p>
+
+            <h2>
+                Let's Build Something Amazing!
+            </h2>
+
+            <p>
+                Start learning today and take the first step toward
+                becoming a better developer.
+            </p>
+
+            <a href="#contact" class="btn white-btn">
+                Get Started
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+    <section class="contact" id="contact">
+
+        <div class="section-heading">
+
+            <p>CONTACT</p>
+
+            <h2>
+                Let's <span>Connect</span>
+            </h2>
+
+            <p>
+                Have a question? Feel free to reach out.
+            </p>
+
+        </div>
+
+
+        <form class="contact-form" id="contactForm">
+
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your Name"
+                autocomplete="name"
+                required
+            >
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Your Email"
+                autocomlete="email"
+                required
+            >
+
+            <textarea
+                id="message"
+                name="message"
+                placeholder="Your Message"
+                rows="5"
+                required
+            ></textarea>
+
+            <button type="submit" class="btn primary-btn">
+                Send Message
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+
+        <div class="footer-content">
+
+            <div class="logo">
+                Code<span>Orbit</span>
+            </div>
+
+            <p>
+                Learn • Build • Grow
+            </p>
+
+        </div>
+
+        <p class="copyright">
+            © 2026 CodeOrbit. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
